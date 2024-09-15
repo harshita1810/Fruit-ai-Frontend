@@ -1,4 +1,7 @@
 # Getting Started with Create React App
+To login to this app you have to put;
+email="abc@gmail.com"
+password="pass"
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
