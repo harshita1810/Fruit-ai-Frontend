@@ -1,0 +1,111 @@
+/* .main{
+    height: 96vh;
+    width: 100vw;
+    margin: auto;
+    background-color: rgb(210, 207, 207);
+    padding-top: 1.5rem;
+} */
+
+.login-container {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    background-color: rgb(234, 234, 234);
+    margin-top: 10px;
+    /* border: 2px solid blue */
+}
+
+
+.login-form input {
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.active {
+    color: #0f9eeb;
+    border: 2px solid #0f9eeb;
+    background-color: transparent;
+  }
+
+.login-button, .social-button {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #0f9eeb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.social-login p, .register-link p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0 ;
+}
+
+.ch{
+    justify-content: flex-start;
+    margin: 0;
+}
+
+
+.social-button {
+    display: inline-block;
+    padding: 5px;
+    width: auto;  
+    background: none;
+    border: none;
+    margin: 0 10px;
+}
+
+.social-button img {
+    width: 30px; 
+    height: 30px;
+}
+
+.tab-switch {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+
+.tab-switch button {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid transparent;
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.tab-switch button.active {
+    border-bottom: 2px solid black;
+}
+
+.tab-switch button:hover {
+    border-bottom: 2px solid gray;
+}
+
+
+.term{
+    text-decoration: none;
+    color: #0f9eeb;
+}
+
+
+.forgot{
+    text-decoration: none;
+    color: #0f9eeb;
+}
